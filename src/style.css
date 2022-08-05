@@ -1,0 +1,38 @@
+* {
+    margin-top: 1px;
+
+    text-align: center;
+
+    box-sizing: border-box;
+
+    /*background-color: #23252C;*/
+
+    content-visibility: auto;
+
+    color: white;
+}
+
+.main-container {
+
+    background-color: #1A1B21;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 1px solid white;
+    border-radius: 15px;
+
+    width: 380px;
+    height: 700px;
+    max-width: 400px;
+    max-height: 830px;
+}
+
+.my-img {
+    width: 380px;
+    height: 200px;
+    left: 116px;
+    top: 44px;
+
+    border-radius: 10px 10px 0px 0px;
+}
