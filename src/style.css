@@ -23,6 +23,12 @@ body {
 
     padding: 0;
     margin: 20px;
+
+    transition: 0.4s;
+}
+
+.main-container:hover {
+    transform: translateY(-5px);
 }
 
 .my-img {
