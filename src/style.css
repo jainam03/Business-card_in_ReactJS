@@ -1,38 +1,69 @@
-* {
-    margin-top: 1px;
-
-    text-align: center;
+body {
+    padding: 0;
+    margin: 0px;
 
     box-sizing: border-box;
 
-    /*background-color: #23252C;*/
-
-    content-visibility: auto;
-
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-container {
+    width: 350px;
+    height: 670px;
 
     background-color: #1A1B21;
 
-    margin-left: auto;
-    margin-right: auto;
+    /*margin-top: 10px;
+    margin-bottom: 10px;*/
 
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 15px;
 
-    width: 380px;
-    height: 700px;
-    max-width: 400px;
-    max-height: 830px;
+    margin: 20px;
 }
 
 .my-img {
-    width: 380px;
-    height: 200px;
-    left: 116px;
-    top: 44px;
+    width: 350px;
+    height: 250px;
 
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 15px 15px 0 0;
+}
+
+#my-info {
+    margin-top: 0;
+    text-align: center;
+    color: white;
+}
+
+#my-info>h3 {
+    margin-top: 0;
+    color: #F3BF99;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#email-btn {
+    width: 80px;
+    max-width: 100px;
+    padding: 10px;
+    margin-right: 10px;
+
+    border-radius: 10px;
+}
+
+#linkedin-btn {
+    background-color: #5093E2;
+    color: white;
+    width: 80px;
+    max-width: 100px;
+    padding: 10px;
+    margin-left: 10px;
+
+    border-radius: 10px;
 }
