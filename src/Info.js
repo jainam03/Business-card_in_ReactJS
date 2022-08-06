@@ -5,7 +5,7 @@ export default function Info() {
         <div>
             <div className="info">
                 <h1>About</h1>
-                <p>I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae ultricies leo, et ullamcorper diam. Duis ut nisi volutpat, ornare libero sed, congue ligula.</p>
             </div>
         </div>
     )
