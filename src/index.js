@@ -5,6 +5,7 @@ import About from "./About"
 import Interests from "./Interests"
 import Footer from "./Footer"
 import "./style.css"
+import "./vanilla-tilt"
 
 function Index() {
     return (
@@ -18,4 +19,4 @@ function Index() {
     )
 }
 
-ReactDOM.render(<Index />, document.getElementById("root"))
+ReactDOM.render(<Index />, document.getElementById("container"))
