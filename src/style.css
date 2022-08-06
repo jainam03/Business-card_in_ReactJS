@@ -4,28 +4,27 @@ body {
 
     box-sizing: border-box;
 
+    background-color: #23252C;
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .main-container {
-    width: 350px;
-    height: 670px;
+    width: 340px;
+    height: 840px;
 
     background-color: #1A1B21;
 
-    /*margin-top: 10px;
-    margin-bottom: 10px;*/
-
-    border: 1px solid black;
+    border: none;
     border-radius: 15px;
-
+    padding: 0;
     margin: 20px;
 }
 
 .my-img {
-    width: 350px;
+    width: 340px;
     height: 250px;
 
     border-radius: 15px 15px 0 0;
@@ -49,7 +48,9 @@ body {
 }
 
 #email-btn {
-    width: 80px;
+    cursor: pointer;
+
+    width: 100px;
     max-width: 100px;
     padding: 10px;
     margin-right: 10px;
@@ -58,12 +59,53 @@ body {
 }
 
 #linkedin-btn {
+    cursor: pointer;
+
     background-color: #5093E2;
     color: white;
-    width: 80px;
-    max-width: 100px;
+    width: 100px;
+    max-width: 120px;
     padding: 10px;
     margin-left: 10px;
 
     border-radius: 10px;
+}
+
+.info {
+    margin: 0;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    color: white;
+
+}
+
+.interests {
+    margin: 0;
+
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    color: white;
+
+}
+
+.footer {
+
+    height: 64px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon {
+    width: 35px;
+    height: 25px;
+
+    background: gray;
+    color: white;
+    border-radius: 10px;
+
+    padding-top: 7px;
+    margin-right: 10px;
+    text-align: center;
 }

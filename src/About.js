@@ -12,8 +12,8 @@ export default function About() {
             </div>
 
             <div className="buttons">
-                <button id="email-btn">Email</button>
-                <button id="linkedin-btn">Linkedin</button>
+                <button id="email-btn" class="fa fa-envelope">Email</button>
+                <button id="linkedin-btn" class="fa fa-linkedin" >Linkedin</button>
             </div>
 
         </div>

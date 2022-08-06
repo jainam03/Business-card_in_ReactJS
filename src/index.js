@@ -9,8 +9,8 @@ import "./style.css"
 function Index() {
     return (
         <div className="main-container">
-            <Info />
             <About />
+            <Info />
             <Interests />
             <Footer />
         </div>
