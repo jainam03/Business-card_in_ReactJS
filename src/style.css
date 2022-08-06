@@ -12,8 +12,8 @@ body {
 }
 
 .main-container {
-    width: 340px;
-    height: 840px;
+    width: 400px;
+    height: 770px;
 
     background-color: #1A1B21;
 
@@ -32,8 +32,8 @@ body {
 }
 
 .my-img {
-    width: 340px;
-    height: 250px;
+    width: 400px;
+    height: 240px;
 
     border-radius: 15px 15px 0 0;
 }
@@ -152,4 +152,15 @@ body {
     padding-top: 7px;
     margin-right: 10px;
     text-align: center;
+
+    transition: 0.5s;
+}
+
+#icon:hover {
+    transform: translateY(-4px);
+    color: white;
+}
+
+#icon:active {
+    transform: translateY(5.5px);
 }
