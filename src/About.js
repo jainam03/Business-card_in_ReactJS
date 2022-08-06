@@ -1,5 +1,5 @@
 import React from "react"
-import pic from "./peep (1).png"
+import pic from "./image.jpg"
 
 export default function About() {
     return (
