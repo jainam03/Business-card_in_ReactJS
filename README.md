@@ -1,5 +1,5 @@
 # This is my first solo project in ReactJS - Business Card 🙂.
 
-# project link - https://preeminent-eclair-a82f25.netlify.app/
+# project link - deploying the project soon
 
 <h1>Work is in progress!</h1>
