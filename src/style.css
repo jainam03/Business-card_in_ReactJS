@@ -196,12 +196,17 @@ body {
 
     margin-right: 10px;
     margin-left: 10px;
+
+    transition: 0.2s;
 }
 
 #icon:hover {
     color: white;
+    transform: translateY(-3px);
 }
 
 #icon:active {
     color: #23252C;
+    transform: translateY(3px);
+
 }
