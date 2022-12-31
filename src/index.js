@@ -6,16 +6,29 @@ import Interests from "./Interests"
 import Footer from "./Footer"
 import "./style.css"
 
-function Index() {
-    return (
-        <div className="main-container">
+// function Index() {
+//     return (
+//         <div className="main-container">
+//             <About />
+//             <Info />
+//             <Interests />
+//             <Footer />
+//         </div>
+
+//     )
+// }
+
+// ReactDOM.render(<Index />, document.getElementById("container"))
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(
+    <React.StrictMode>
+        <div className="main-container" >
             <About />
             <Info />
             <Interests />
             <Footer />
         </div>
-
-    )
-}
-
-ReactDOM.render(<Index />, document.getElementById("container"))
+    </React.StrictMode>
+)
