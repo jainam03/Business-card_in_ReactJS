@@ -13,7 +13,7 @@ export default function About() {
 
             <div className="buttons">
                 <button id="email-btn" class="fa fa-envelope">Email</button>
-                <button id="linkedin-btn" class="fa fa-linkedin" >Linkedin</button>
+                <button id="linkedin-btn" class="fa fa-linkedin" onClick={() => window.open('https://www.youtube.com')} >Linkedin</button>
             </div>
 
         </div>
